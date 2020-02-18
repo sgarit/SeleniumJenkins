@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18181" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:40 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18181" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:40 PST">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="16860" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifyLoginPagTitleTest" duration-ms="156" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPagTitleTest -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifySignUpLinkTest" duration-ms="55" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="loginTest" duration-ms="406" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-02-17T16:17:40 PST" finished-at="2020-02-17T16:17:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
