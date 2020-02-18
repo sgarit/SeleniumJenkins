@@ -49,7 +49,10 @@ public class LoginPageTest {
 	public void loginTest() {
 		loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
-
+	@Test(priority = 4)
+    public void forgotPasswordLinkTest() {
+		Assert.assertTrue(loginPage.verifyForgotPasswordLink(),"Forgot password link is not displayed");
+	}
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
