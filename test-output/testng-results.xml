@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21573" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:21 PST">
+  <suite name="Default suite" duration-ms="24013" started-at="2020-02-23T21:29:27 PST" finished-at="2020-02-23T21:29:51 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21573" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:21 PST">
+    <test name="Default test" duration-ms="24013" started-at="2020-02-23T21:29:27 PST" finished-at="2020-02-23T21:29:51 PST">
       <class name="com.qa.hubspot.test.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="15260" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:14 PST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="17050" started-at="2020-02-23T21:29:27 PST" finished-at="2020-02-23T21:29:44 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifyLoginPagTitleTest" duration-ms="14" started-at="2020-02-19T11:16:14 PST" finished-at="2020-02-19T11:16:14 PST">
+        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifyLoginPagTitleTest" duration-ms="224" started-at="2020-02-23T21:29:44 PST" finished-at="2020-02-23T21:29:44 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPagTitleTest -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifySignUpLinkTest" duration-ms="84" started-at="2020-02-19T11:16:14 PST" finished-at="2020-02-19T11:16:15 PST">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifySignUpLinkTest" duration-ms="128" started-at="2020-02-23T21:29:44 PST" finished-at="2020-02-23T21:29:45 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="loginTest" duration-ms="5472" started-at="2020-02-19T11:16:15 PST" finished-at="2020-02-19T11:16:20 PST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="loginTest" duration-ms="5726" started-at="2020-02-23T21:29:45 PST" finished-at="2020-02-23T21:29:50 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="FAIL" signature="forgotPasswordLinkTest()[pri:4, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="forgotPasswordLinkTest" duration-ms="44" started-at="2020-02-19T11:16:20 PST" finished-at="2020-02-19T11:16:20 PST">
+        <test-method status="FAIL" signature="forgotPasswordLinkTest()[pri:4, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="forgotPasswordLinkTest" duration-ms="48" started-at="2020-02-23T21:29:50 PST" finished-at="2020-02-23T21:29:50 PST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i18n-string[contains(text(),'Forgot my password')]"}
@@ -32,8 +32,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-A4ISSNR', ip: '10.0.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62925fe62673f28e1b394de6d6cfd7ee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 677930d577bf243b81adec8dcdded4ca
 *** Element info: {Using=xpath, value=//i18n-string[contains(text(),'Forgot my password')]}]]>
             </message>
             <full-stacktrace>
@@ -43,8 +43,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-A4ISSNR', ip: '10.0.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62925fe62673f28e1b394de6d6cfd7ee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 677930d577bf243b81adec8dcdded4ca
 *** Element info: {Using=xpath, value=//i18n-string[contains(text(),'Forgot my password')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -96,7 +96,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-02-19T11:16:20 PST" finished-at="2020-02-19T11:16:21 PST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="761" started-at="2020-02-23T21:29:50 PST" finished-at="2020-02-23T21:29:51 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
