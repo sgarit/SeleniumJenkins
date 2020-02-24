@@ -38,7 +38,7 @@ public class LoginPageTest {
 	
 	@Test(priority = 1)
 	public void verifyLoginPagTitleTest() {
-		Assert.assertEquals(loginPage.getPageTitle(), "HubSpot Login", "Login page title is mismatched...");
+		Assert.assertEquals(loginPage.getPageTitle(), "HubSpot Login", "Login page test title is mismatched...");
 	}
 	@Test(priority = 2)
 	public void verifySignUpLinkTest() {
