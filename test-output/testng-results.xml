@@ -1,29 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18181" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:40 PST">
+  <suite name="Default suite" duration-ms="21573" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:21 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18181" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:40 PST">
+    <test name="Default test" duration-ms="21573" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:21 PST">
       <class name="com.qa.hubspot.test.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="16860" started-at="2020-02-17T16:17:22 PST" finished-at="2020-02-17T16:17:39 PST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="15260" started-at="2020-02-19T11:15:59 PST" finished-at="2020-02-19T11:16:14 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifyLoginPagTitleTest" duration-ms="156" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:39 PST">
+        <test-method status="PASS" signature="verifyLoginPagTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifyLoginPagTitleTest" duration-ms="14" started-at="2020-02-19T11:16:14 PST" finished-at="2020-02-19T11:16:14 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPagTitleTest -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifySignUpLinkTest" duration-ms="55" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:39 PST">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="verifySignUpLinkTest" duration-ms="84" started-at="2020-02-19T11:16:14 PST" finished-at="2020-02-19T11:16:15 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="loginTest" duration-ms="406" started-at="2020-02-17T16:17:39 PST" finished-at="2020-02-17T16:17:40 PST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="loginTest" duration-ms="5472" started-at="2020-02-19T11:16:15 PST" finished-at="2020-02-19T11:16:20 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-02-17T16:17:40 PST" finished-at="2020-02-17T16:17:40 PST">
+        <test-method status="FAIL" signature="forgotPasswordLinkTest()[pri:4, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="forgotPasswordLinkTest" duration-ms="44" started-at="2020-02-19T11:16:20 PST" finished-at="2020-02-19T11:16:20 PST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i18n-string[contains(text(),'Forgot my password')]"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4ISSNR', ip: '10.0.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62925fe62673f28e1b394de6d6cfd7ee
+*** Element info: {Using=xpath, value=//i18n-string[contains(text(),'Forgot my password')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i18n-string[contains(text(),'Forgot my password')]"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4ISSNR', ip: '10.0.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ragin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62925fe62673f28e1b394de6d6cfd7ee
+*** Element info: {Using=xpath, value=//i18n-string[contains(text(),'Forgot my password')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.qa.hubspot.pages.LoginPage.verifyForgotPasswordLink(LoginPage.java:57)
+at com.qa.hubspot.test.LoginPageTest.forgotPasswordLinkTest(LoginPageTest.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-02-19T11:16:20 PST" finished-at="2020-02-19T11:16:21 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

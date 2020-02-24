@@ -5,7 +5,7 @@
     <classes>
       <class name="com.qa.hubspot.test.LoginPageTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="forgotPasswordLinkTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>

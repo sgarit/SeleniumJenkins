@@ -31,7 +31,7 @@ public class BasePage {
 		}
 		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
-		driver.get("http://www.hubspot.com");
+		//driver.get("http://www.hubspot.com");
 		return driver;
 	}
 	
